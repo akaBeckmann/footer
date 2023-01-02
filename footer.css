@@ -1,0 +1,126 @@
+footer *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.footer-container {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    
+}
+
+.footer-list-link{
+    display: flex;
+    gap: 6px;
+}
+
+.footer-list-link:hover {
+    color: rgb(19, 101, 163);
+}
+
+h3.footer-title{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+ul.footer-list {
+    list-style: none;
+}
+.footer{
+    padding: 80px;
+}
+
+i{
+    font-size: 2.4rem;
+    color:black;
+}
+
+a.footer-list-link {
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+a.conditions {
+    text-decoration: none;
+    color: black;
+}
+
+a.conditions:hover {
+    color:rgb(19, 101, 163);
+}
+
+hr.footer-divider{
+    margin: auto 250px;
+}
+
+.copyright {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+#conditions {
+    margin-left: 249px;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    font-weight: 550;
+}
+
+.bottom-footer-list {
+    list-style: none;
+    display: flex;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    position:absolute;
+    right:84px;
+    top: 370px;
+}
+
+.footer-list-bottom1 {
+    text-decoration: none;
+}
+
+.footer-list-bottom2 {
+    display: grid;
+    gap: 20px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+#slack-download {
+    position: relative;
+    right: 25px;
+    color: rgb(18, 101, 162);
+}
+
+div.logo{
+    position: absolute;
+    left: 21em;
+}
+
+.ri-twitter-fill:hover {
+    color:rgb(19, 101, 163);
+}
+.ri-facebook-box-fill:hover {
+    color: rgb(19, 101, 163);
+}
+.ri-youtube-fill:hover {
+    color: rgb(19, 101, 163);  
+}
+.ri-linkedin-box-fill:hover {
+    color: rgb(19, 101, 163);
+}
